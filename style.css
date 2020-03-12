@@ -94,3 +94,16 @@ h3 {
     padding: 0.5rem;
     font-size: 2rem;
 }
+
+.photo {
+    background-image: url(assets/moje.png);
+    position: absolute;
+    top: -2rem;
+    left:-5rem;
+    height: 10rem;
+    width: 10rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30%
+}
