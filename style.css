@@ -6,10 +6,11 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    font-family: "Montserrat"
+    font-family: "Montserrat";
+    box-sizing: border-box;
 }
 
-.object-1 {
+.glowa {
     background-image: url(assets/background2.jpeg);
     opacity: 0.7;
     background-position: center;
@@ -17,6 +18,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     min-height: 70rem;
+    position: relative;
 }
 
 .about {
@@ -53,28 +55,10 @@ li {
     padding: 0.5rem;
 }
 
-.object-2 {
-    background-color: antiquewhite;
-    opacity: 0.8;
-    position:absolute;
-    right: 1rem;
-    left: 1rem;
+.objects {
+    position: absolute;
     top: 40rem;
-    border-radius: 5%;
-    padding: 2rem;
-    box-shadow: 1rem 1rem 1rem grey;
-}
-
-.object-3 {
-    background-color: antiquewhite;
-    opacity: 0.8;
-    position:absolute;
-    right: 1rem;
-    left: 1rem;
-    top: 58rem;
-    border-radius: 5%;
-    padding: 1rem;
-    box-shadow: 1rem 1rem 1rem grey;
+    width: 100%;
 }
 
 h3 {
@@ -106,4 +90,15 @@ h3 {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 30%
+}
+
+.object-1, .object-2 {
+    float: left;
+    background-color: antiquewhite;
+    opacity: 0.8;
+    width: 41%;
+    padding: 2%;
+    margin: 2%;
+    border-radius: 5%;
+    box-shadow: 1rem 1rem 1rem grey;
 }
